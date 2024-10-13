@@ -1,0 +1,2186 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32675 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Game Making/Unity Projects/ProjectRAT
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59484
+Successfully changed project path to: E:/Game Making/Unity Projects/ProjectRAT
+E:/Game Making/Unity Projects/ProjectRAT
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 96.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Game Making/Unity Projects/ProjectRAT/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+[vulkan] LoadVulkanLibrary vulkan-1.dll[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkCreateInstance
+[vulkan] Loaded instance function vkEnumerateInstanceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateInstanceLayerProperties
+[vulkan] Loaded instance function vkEnumerateInstanceVersion
+[Vulkan init] extensions: count=19
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_win32_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_surface_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace, enabled=1
+[Vulkan init] extensions: name=VK_NV_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration, enabled=0
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading, enabled=0
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+Vulkan detection: 2
+[Vulkan init] extensions: count=19
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_win32_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_surface_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace, enabled=1
+[Vulkan init] extensions: name=VK_NV_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration, enabled=0
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading, enabled=0
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+[vulkan] Loaded instance function vkGetDeviceProcAddr
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties
+[vulkan] Loaded instance function vkCreateDevice
+[vulkan] Loaded instance function vkEnumerateDeviceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateDeviceLayerProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties
+[vulkan] Loaded instance function vkDestroySurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceSupportKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceCapabilitiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceFormatsKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfacePresentModesKHR
+[vulkan] Loaded instance function vkCreateSwapchainKHR
+[vulkan] Loaded instance function vkDestroySwapchainKHR
+[vulkan] Loaded instance function vkGetSwapchainImagesKHR
+[vulkan] Loaded instance function vkAcquireNextImageKHR
+[vulkan] Loaded instance function vkQueuePresentKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPropertiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPlanePropertiesKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneSupportedDisplaysKHR
+[vulkan] Loaded instance function vkGetDisplayModePropertiesKHR
+[vulkan] Loaded instance function vkCreateDisplayModeKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneCapabilitiesKHR
+[vulkan] Loaded instance function vkCreateDisplayPlaneSurfaceKHR
+[vulkan] Loaded instance function vkCreateSharedSwapchainsKHR
+[vulkan] Loaded instance function vkCreateWin32SurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceWin32PresentationSupportKHR
+[vulkan] Loaded instance function vkSetHdrMetadataEXT
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties2KHR
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0000000000000000
+[Vulkan init] Physical Device 000001CDC769D9A0 [0]: "NVIDIA GeForce RTX 2080" deviceType=2 vendorID=10de deviceID=1e87
+[Vulkan init] Selected physical device 000001CDC769D9A0
+[Vulkan init] Graphics queue count=1
+[Vulkan init] extensions: count=226
+[Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=1
+[Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_acceleration_structure, enabled=0
+[Vulkan init] extensions: name=VK_KHR_bind_memory2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_KHR_calibrated_timestamps, enabled=0
+[Vulkan init] extensions: name=VK_KHR_cooperative_matrix, enabled=0
+[Vulkan init] extensions: name=VK_KHR_copy_commands2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_create_renderpass2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_dedicated_allocation, enabled=1
+[Vulkan init] extensions: name=VK_KHR_deferred_host_operations, enabled=0
+[Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve, enabled=1
+[Vulkan init] extensions: name=VK_KHR_descriptor_update_template, enabled=1
+[Vulkan init] extensions: name=VK_KHR_device_group, enabled=0
+[Vulkan init] extensions: name=VK_KHR_draw_indirect_count, enabled=0
+[Vulkan init] extensions: name=VK_KHR_driver_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_dynamic_rendering, enabled=0
+[Vulkan init] extensions: name=VK_KHR_dynamic_rendering_local_read, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_win32, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_win32, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_win32, enabled=0
+[Vulkan init] extensions: name=VK_KHR_format_feature_flags2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_fragment_shader_barycentric, enabled=0
+[Vulkan init] extensions: name=VK_KHR_fragment_shading_rate, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_memory_requirements2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_global_priority, enabled=0
+[Vulkan init] extensions: name=VK_KHR_image_format_list, enabled=1
+[Vulkan init] extensions: name=VK_KHR_imageless_framebuffer, enabled=0
+[Vulkan init] extensions: name=VK_KHR_index_type_uint8, enabled=0
+[Vulkan init] extensions: name=VK_KHR_line_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_KHR_load_store_op_none, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance1, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance3, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance5, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance6, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance7, enabled=0
+[Vulkan init] extensions: name=VK_KHR_map_memory2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_multiview, enabled=1
+[Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_pipeline_library, enabled=0
+[Vulkan init] extensions: name=VK_KHR_present_id, enabled=0
+[Vulkan init] extensions: name=VK_KHR_present_wait, enabled=0
+[Vulkan init] extensions: name=VK_KHR_push_descriptor, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_query, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_pipeline, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_position_fetch, enabled=0
+[Vulkan init] extensions: name=VK_KHR_relaxed_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge, enabled=1
+[Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion, enabled=0
+[Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_clock, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_draw_parameters, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_expect_assume, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float16_int8, enabled=1
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_integer_dot_product, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_maximal_reconvergence, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_quad_control, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_relaxed_extended_instruction, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_rotate, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_uniform_control_flow, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_spirv_1_4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class, enabled=0
+[Vulkan init] extensions: name=VK_KHR_swapchain, enabled=1
+[Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format, enabled=0
+[Vulkan init] extensions: name=VK_KHR_synchronization2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_timeline_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_variable_pointers, enabled=0
+[Vulkan init] extensions: name=VK_KHR_vertex_attribute_divisor, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_decode_h264, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_decode_h265, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_decode_queue, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_encode_h264, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_encode_h265, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_encode_queue, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_queue, enabled=0
+[Vulkan init] extensions: name=VK_KHR_vulkan_memory_model, enabled=0
+[Vulkan init] extensions: name=VK_KHR_win32_keyed_mutex, enabled=0
+[Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory, enabled=0
+[Vulkan init] extensions: name=VK_EXT_4444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_layout, enabled=0
+[Vulkan init] extensions: name=VK_EXT_blend_operation_advanced, enabled=0
+[Vulkan init] extensions: name=VK_EXT_border_color_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_EXT_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_EXT_calibrated_timestamps, enabled=0
+[Vulkan init] extensions: name=VK_EXT_color_write_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conditional_rendering, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conservative_rasterization, enabled=1
+[Vulkan init] extensions: name=VK_EXT_custom_border_color, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_bias_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clamp_zero_one, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted, enabled=0
+[Vulkan init] extensions: name=VK_EXT_descriptor_buffer, enabled=0
+[Vulkan init] extensions: name=VK_EXT_descriptor_indexing, enabled=0
+[Vulkan init] extensions: name=VK_EXT_device_fault, enabled=0
+[Vulkan init] extensions: name=VK_EXT_discard_rectangles, enabled=0
+[Vulkan init] extensions: name=VK_EXT_dynamic_rendering_unused_attachments, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state3, enabled=0
+[Vulkan init] extensions: name=VK_EXT_external_memory_host, enabled=0
+[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock, enabled=0
+[Vulkan init] extensions: name=VK_EXT_full_screen_exclusive, enabled=0
+[Vulkan init] extensions: name=VK_EXT_global_priority, enabled=0
+[Vulkan init] extensions: name=VK_EXT_global_priority_query, enabled=0
+[Vulkan init] extensions: name=VK_EXT_graphics_pipeline_library, enabled=0
+[Vulkan init] extensions: name=VK_EXT_hdr_metadata, enabled=1
+[Vulkan init] extensions: name=VK_EXT_host_image_copy, enabled=0
+[Vulkan init] extensions: name=VK_EXT_host_query_reset, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_2d_view_of_3d, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_sliced_view_of_3d, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_view_min_lod, enabled=0
+[Vulkan init] extensions: name=VK_EXT_index_type_uint8, enabled=0
+[Vulkan init] extensions: name=VK_EXT_inline_uniform_block, enabled=0
+[Vulkan init] extensions: name=VK_EXT_legacy_vertex_attributes, enabled=0
+[Vulkan init] extensions: name=VK_EXT_line_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_EXT_load_store_op_none, enabled=0
+[Vulkan init] extensions: name=VK_EXT_memory_budget, enabled=1
+[Vulkan init] extensions: name=VK_EXT_memory_priority, enabled=1
+[Vulkan init] extensions: name=VK_EXT_mesh_shader, enabled=0
+[Vulkan init] extensions: name=VK_EXT_multi_draw, enabled=0
+[Vulkan init] extensions: name=VK_EXT_mutable_descriptor_type, enabled=0
+[Vulkan init] extensions: name=VK_EXT_nested_command_buffer, enabled=0
+[Vulkan init] extensions: name=VK_EXT_non_seamless_cube_map, enabled=0
+[Vulkan init] extensions: name=VK_EXT_opacity_micromap, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pageable_device_local_memory, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pci_bus_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_library_group_handles, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_post_depth_coverage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_primitive_topology_list_restart, enabled=0
+[Vulkan init] extensions: name=VK_EXT_primitives_generated_query, enabled=0
+[Vulkan init] extensions: name=VK_EXT_private_data, enabled=0
+[Vulkan init] extensions: name=VK_EXT_provoking_vertex, enabled=0
+[Vulkan init] extensions: name=VK_EXT_queue_family_foreign, enabled=0
+[Vulkan init] extensions: name=VK_EXT_robustness2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sample_locations, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax, enabled=0
+[Vulkan init] extensions: name=VK_EXT_scalar_block_layout, enabled=1
+[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_atomic_float, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_module_identifier, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_object, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_replicated_composites, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer, enabled=1
+[Vulkan init] extensions: name=VK_EXT_subgroup_size_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_swapchain_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment, enabled=0
+[Vulkan init] extensions: name=VK_EXT_tooling_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_transform_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_input_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_2plane_444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays, enabled=0
+[Vulkan init] extensions: name=VK_NV_acquire_winrt_display, enabled=0
+[Vulkan init] extensions: name=VK_NV_clip_space_w_scaling, enabled=0
+[Vulkan init] extensions: name=VK_NV_compute_shader_derivatives, enabled=0
+[Vulkan init] extensions: name=VK_NV_cooperative_matrix, enabled=0
+[Vulkan init] extensions: name=VK_NV_copy_memory_indirect, enabled=0
+[Vulkan init] extensions: name=VK_NV_corner_sampled_image, enabled=0
+[Vulkan init] extensions: name=VK_NV_coverage_reduction_mode, enabled=0
+[Vulkan init] extensions: name=VK_NV_cuda_kernel_launch, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation_image_aliasing, enabled=0
+[Vulkan init] extensions: name=VK_NV_descriptor_pool_overallocation, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostic_checkpoints, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostics_config, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_generated_commands, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_generated_commands_compute, enabled=0
+[Vulkan init] extensions: name=VK_NV_external_memory, enabled=0
+[Vulkan init] extensions: name=VK_NV_external_memory_win32, enabled=0
+[Vulkan init] extensions: name=VK_NV_fill_rectangle, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_coverage_to_color, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_shader_barycentric, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_shading_rate_enums, enabled=0
+[Vulkan init] extensions: name=VK_NV_framebuffer_mixed_samples, enabled=0
+[Vulkan init] extensions: name=VK_NV_geometry_shader_passthrough, enabled=0
+[Vulkan init] extensions: name=VK_NV_inherited_viewport_scissor, enabled=0
+[Vulkan init] extensions: name=VK_NV_linear_color_attachment, enabled=0
+[Vulkan init] extensions: name=VK_NV_low_latency, enabled=0
+[Vulkan init] extensions: name=VK_NV_low_latency2, enabled=0
+[Vulkan init] extensions: name=VK_NV_memory_decompression, enabled=0
+[Vulkan init] extensions: name=VK_NV_mesh_shader, enabled=0
+[Vulkan init] extensions: name=VK_NV_raw_access_chains, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing_invocation_reorder, enabled=0
+[Vulkan init] extensions: name=VK_NV_representative_fragment_test, enabled=0
+[Vulkan init] extensions: name=VK_NV_sample_mask_override_coverage, enabled=0
+[Vulkan init] extensions: name=VK_NV_scissor_exclusive, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_atomic_float16_vector, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_image_footprint, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_sm_builtins, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_subgroup_partitioned, enabled=0
+[Vulkan init] extensions: name=VK_NV_shading_rate_image, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_array2, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_NV_win32_keyed_mutex, enabled=0
+[Vulkan init] extensions: name=VK_NVX_binary_import, enabled=0
+[Vulkan init] extensions: name=VK_NVX_image_view_handle, enabled=0
+[Vulkan init] extensions: name=VK_NVX_multiview_per_view_attributes, enabled=0
+[Vulkan init] extensions: name=VK_AMD_buffer_marker, enabled=0
+[Vulkan init] extensions: name=VK_GOOGLE_user_type, enabled=0
+[vulkan] Loaded instance function vkDestroyDevice
+[vulkan] Loaded instance function vkGetDeviceQueue
+[vulkan] Loaded instance function vkQueueSubmit
+[vulkan] Loaded instance function vkQueueWaitIdle
+[vulkan] Loaded instance function vkDeviceWaitIdle
+[vulkan] Loaded instance function vkAllocateMemory
+[vulkan] Loaded instance function vkFreeMemory
+[vulkan] Loaded instance function vkMapMemory
+[vulkan] Loaded instance function vkUnmapMemory
+[vulkan] Loaded instance function vkFlushMappedMemoryRanges
+[vulkan] Loaded instance function vkInvalidateMappedMemoryRanges
+[vulkan] Loaded instance function vkGetDeviceMemoryCommitment
+[vulkan] Loaded instance function vkBindBufferMemory
+[vulkan] Loaded instance function vkBindImageMemory
+[vulkan] Loaded instance function vkGetBufferMemoryRequirements
+[vulkan] Loaded instance function vkGetImageMemoryRequirements
+[vulkan] Loaded instance function vkGetImageSparseMemoryRequirements
+[vulkan] Loaded instance function vkQueueBindSparse
+[vulkan] Loaded instance function vkCreateFence
+[vulkan] Loaded instance function vkDestroyFence
+[vulkan] Loaded instance function vkResetFences
+[vulkan] Loaded instance function vkGetFenceStatus
+[vulkan] Loaded instance function vkWaitForFences
+[vulkan] Loaded instance function vkCreateSemaphore
+[vulkan] Loaded instance function vkDestroySemaphore
+[vulkan] Loaded instance function vkCreateEvent
+[vulkan] Loaded instance function vkDestroyEvent
+[vulkan] Loaded instance function vkGetEventStatus
+[vulkan] Loaded instance function vkSetEvent
+[vulkan] Loaded instance function vkResetEvent
+[vulkan] Loaded instance function vkCreateQueryPool
+[vulkan] Loaded instance function vkDestroyQueryPool
+[vulkan] Loaded instance function vkGetQueryPoolResults
+[vulkan] Loaded instance function vkCreateBuffer
+[vulkan] Loaded instance function vkDestroyBuffer
+[vulkan] Loaded instance function vkCreateBufferView
+[vulkan] Loaded instance function vkDestroyBufferView
+[vulkan] Loaded instance function vkCreateImage
+[vulkan] Loaded instance function vkDestroyImage
+[vulkan] Loaded instance function vkGetImageSubresourceLayout
+[vulkan] Loaded instance function vkCreateImageView
+[vulkan] Loaded instance function vkDestroyImageView
+[vulkan] Loaded instance function vkCreateShaderModule
+[vulkan] Loaded instance function vkDestroyShaderModule
+[vulkan] Loaded instance function vkCreatePipelineCache
+[vulkan] Loaded instance function vkDestroyPipelineCache
+[vulkan] Loaded instance function vkGetPipelineCacheData
+[vulkan] Loaded instance function vkMergePipelineCaches
+[vulkan] Loaded instance function vkCreateGraphicsPipelines
+[vulkan] Loaded instance function vkCreateComputePipelines
+[vulkan] Loaded instance function vkDestroyPipeline
+[vulkan] Loaded instance function vkCreatePipelineLayout
+[vulkan] Loaded instance function vkDestroyPipelineLayout
+[vulkan] Loaded instance function vkCreateSampler
+[vulkan] Loaded instance function vkDestroySampler
+[vulkan] Loaded instance function vkCreateDescriptorSetLayout
+[vulkan] Loaded instance function vkDestroyDescriptorSetLayout
+[vulkan] Loaded instance function vkCreateDescriptorPool
+[vulkan] Loaded instance function vkDestroyDescriptorPool
+[vulkan] Loaded instance function vkResetDescriptorPool
+[vulkan] Loaded instance function vkAllocateDescriptorSets
+[vulkan] Loaded instance function vkFreeDescriptorSets
+[vulkan] Loaded instance function vkUpdateDescriptorSets
+[vulkan] Loaded instance function vkCreateFramebuffer
+[vulkan] Loaded instance function vkDestroyFramebuffer
+[vulkan] Loaded instance function vkCreateRenderPass
+[vulkan] Loaded instance function vkDestroyRenderPass
+[vulkan] Loaded instance function vkGetRenderAreaGranularity
+[vulkan] Loaded instance function vkCreateCommandPool
+[vulkan] Loaded instance function vkDestroyCommandPool
+[vulkan] Loaded instance function vkResetCommandPool
+[vulkan] Loaded instance function vkAllocateCommandBuffers
+[vulkan] Loaded instance function vkFreeCommandBuffers
+[vulkan] Loaded instance function vkBeginCommandBuffer
+[vulkan] Loaded instance function vkEndCommandBuffer
+[vulkan] Loaded instance function vkResetCommandBuffer
+[vulkan] Loaded instance function vkCmdBindPipeline
+[vulkan] Loaded instance function vkCmdSetViewport
+[vulkan] Loaded instance function vkCmdSetScissor
+[vulkan] Loaded instance function vkCmdSetLineWidth
+[vulkan] Loaded instance function vkCmdSetDepthBias
+[vulkan] Loaded instance function vkCmdSetBlendConstants
+[vulkan] Loaded instance function vkCmdSetDepthBounds
+[vulkan] Loaded instance function vkCmdSetStencilCompareMask
+[vulkan] Loaded instance function vkCmdSetStencilWriteMask
+[vulkan] Loaded instance function vkCmdSetStencilReference
+[vulkan] Loaded instance function vkCmdBindDescriptorSets
+[vulkan] Loaded instance function vkCmdBindIndexBuffer
+[vulkan] Loaded instance function vkCmdBindVertexBuffers
+[vulkan] Loaded instance function vkCmdDraw
+[vulkan] Loaded instance function vkCmdDrawIndexed
+[vulkan] Loaded instance function vkCmdDrawIndirect
+[vulkan] Loaded instance function vkCmdDrawIndexedIndirect
+[vulkan] Loaded instance function vkCmdDispatch
+[vulkan] Loaded instance function vkCmdDispatchIndirect
+[vulkan] Loaded instance function vkCmdCopyBuffer
+[vulkan] Loaded instance function vkCmdCopyImage
+[vulkan] Loaded instance function vkCmdBlitImage
+[vulkan] Loaded instance function vkCmdCopyBufferToImage
+[vulkan] Loaded instance function vkCmdCopyImageToBuffer
+[vulkan] Loaded instance function vkCmdUpdateBuffer
+[vulkan] Loaded instance function vkCmdFillBuffer
+[vulkan] Loaded instance function vkCmdClearColorImage
+[vulkan] Loaded instance function vkCmdClearDepthStencilImage
+[vulkan] Loaded instance function vkCmdClearAttachments
+[vulkan] Loaded instance function vkCmdResolveImage
+[vulkan] Loaded instance function vkCmdSetEvent
+[vulkan] Loaded instance function vkCmdResetEvent
+[vulkan] Loaded instance function vkCmdWaitEvents
+[vulkan] Loaded instance function vkCmdPipelineBarrier
+[vulkan] Loaded instance function vkCmdBeginQuery
+[vulkan] Loaded instance function vkCmdEndQuery
+[vulkan] Loaded instance function vkCmdResetQueryPool
+[vulkan] Loaded instance function vkCmdWriteTimestamp
+[vulkan] Loaded instance function vkCmdCopyQueryPoolResults
+[vulkan] Loaded instance function vkCmdPushConstants
+[vulkan] Loaded instance function vkCmdBeginRenderPass
+[vulkan] Loaded instance function vkCmdNextSubpass
+[vulkan] Loaded instance function vkCmdEndRenderPass
+[vulkan] Loaded instance function vkCmdExecuteCommands
+[vulkan] Loaded instance function vkGetImageMemoryRequirements2KHR
+[vulkan] Loaded instance function vkGetBufferMemoryRequirements2KHR
+[vulkan] Loaded instance function vkGetImageSparseMemoryRequirements2KHR
+[vulkan] Loaded instance function vkCreateDescriptorUpdateTemplateKHR
+[vulkan] Loaded instance function vkDestroyDescriptorUpdateTemplateKHR
+[vulkan] Loaded instance function vkUpdateDescriptorSetWithTemplateKHR
+[vulkan] Loaded instance function vkCmdBeginRenderPass2KHR
+[vulkan] Loaded instance function vkCmdEndRenderPass2KHR
+[vulkan] Loaded instance function vkCmdNextSubpass2KHR
+[vulkan] Loaded instance function vkCreateRenderPass2KHR
+[vulkan] Loaded instance function vkDebugMarkerSetObjectTagEXT
+[vulkan] Loaded instance function vkDebugMarkerSetObjectNameEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerBeginEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerEndEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerInsertEXT
+Vulkan API version 1.1.0 (1.3.289 supported by driver, 1.1.0 requested)
+Vulkan vendor=[NVIDIA] id=[10de]
+Vulkan renderer=[NVIDIA GeForce RTX 2080] id=[1e87]
+Vulkan device type 2
+Vulkan driverversion=[0x8d568000] uint=[-1923710976]
+Vulkan PSO: Cache data successfully loaded [size=1101407,path=C:/Users/Bowin/AppData/Local/Temp/Corvus/RAT/vulkan_pso_cache.bin]
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004559 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 99.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.602 seconds
+Domain Reload Profiling:
+	ReloadAssembly (602ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (433ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004220 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 111.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.416 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1417ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1212ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (580ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4599 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (1.3 MB). Loaded Objects now: 5047.
+Memory consumption went from 193.1 MB to 191.9 MB.
+Total: 15.214700 ms (FindLiveObjects: 0.448800 ms CreateObjectMapping: 0.463300 ms MarkObjects: 14.033800 ms  DeleteObjects: 0.268100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 439949.446672 seconds.
+  path: Assets/Resources/Prefabs/ComputerScreen.prefab
+  artifactKey: Guid(227c05bd07c570945a1772204550bcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/ComputerScreen.prefab using Guid(227c05bd07c570945a1772204550bcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b1c322e62713c2c89da6353c1e3c47') in 0.583187 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004117 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.452 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1453ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1186ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5052.
+Memory consumption went from 189.5 MB to 188.3 MB.
+Total: 13.500100 ms (FindLiveObjects: 0.320000 ms CreateObjectMapping: 0.234200 ms MarkObjects: 12.696700 ms  DeleteObjects: 0.247900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 870.185199 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888d30b1ead13f8ac9c914d6c4a5ce36') in 0.088955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.111204 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be814c04a45cc916232b438496f90b') in 0.043667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.366737 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5304178cf2ca9f9c495ec29bc4cae747') in 0.042069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.517981 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750cafc5b1978f5867a1505c924d46e7') in 0.021789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.882990 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae61aa0da2d7a25947818a71d912d80') in 0.019635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.482977 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac264899a4da4ec8c418e6782b0c61a') in 0.041971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.579120 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78027380879f338669510893df54924') in 0.042510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.477896 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83371a9b237801a894ed75cfb0cd3419') in 0.041802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.188657 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1366x768.png
+  artifactKey: Guid(389ee927de9ac6f44af374b30e588eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1366x768.png using Guid(389ee927de9ac6f44af374b30e588eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fd976c6cd079e72130c7e9676532a4') in 0.055097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.096564 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe58503a3eb6ddd8cd151282217bce0') in 0.044998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.859915 seconds.
+  path: Assets/Resources/Backgrounds/sunsetbob.png
+  artifactKey: Guid(536ffbe858e25224f9a45138f81924ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/sunsetbob.png using Guid(536ffbe858e25224f9a45138f81924ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68216123607aa659c47f03e5d66ebb3') in 0.059430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.196098 seconds.
+  path: Assets/Resources/Backgrounds/wallpaper01.png
+  artifactKey: Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/wallpaper01.png using Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3099f5df2238a32807fc2949782f1d') in 0.013704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.189261 seconds.
+  path: Assets/Resources/Backgrounds/wallpaper01.png
+  artifactKey: Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/wallpaper01.png using Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6c0015ee463f804b7f49b8f79f7c46') in 0.018149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.811134 seconds.
+  path: Assets/Resources/Backgrounds/wallpaper01.png
+  artifactKey: Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/wallpaper01.png using Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1584c32e17c4da90e7fb2bac6a12d079') in 0.029898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.481730 seconds.
+  path: Assets/Resources/Backgrounds/wallpaper01.png
+  artifactKey: Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/wallpaper01.png using Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3c8bbfd93c418124510fc47958c9c1') in 0.016894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.122453 seconds.
+  path: Assets/Resources/Backgrounds/wallpaper01.png
+  artifactKey: Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/wallpaper01.png using Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902248d6d62deb11955c37865b40a11b') in 0.057527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.226145 seconds.
+  path: Assets/Resources/Backgrounds/wallpaper01.png
+  artifactKey: Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/wallpaper01.png using Guid(d153898e241b10b4b91ac8b52fc63c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be67c1015aa638ad161f260940f87970') in 0.031733 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5069.
+Memory consumption went from 103.9 MB to 102.7 MB.
+Total: 14.043600 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.194000 ms MarkObjects: 13.292600 ms  DeleteObjects: 0.248700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 80.583668 seconds.
+  path: Assets/Resources/Font/NotoSans-VariableFont_wdth,wght SDF.asset
+  artifactKey: Guid(1c046c9716c79824db62937e3e3c2d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Font/NotoSans-VariableFont_wdth,wght SDF.asset using Guid(1c046c9716c79824db62937e3e3c2d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e127d1cfe8d16ca19bdf9dcc523181b') in 0.087895 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5110.
+Memory consumption went from 104.6 MB to 103.4 MB.
+Total: 11.453800 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.206100 ms MarkObjects: 10.686600 ms  DeleteObjects: 0.256500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.354969 seconds.
+  path: Assets/Resources/Font/NotoSans-VariableFont_wdth,wght SDF.asset
+  artifactKey: Guid(1c046c9716c79824db62937e3e3c2d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Font/NotoSans-VariableFont_wdth,wght SDF.asset using Guid(1c046c9716c79824db62937e3e3c2d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3586a209a2b82ca18233362140230eb9') in 0.062066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 165.239780 seconds.
+  path: Assets/Resources/Font/NotoSansDisplay-VariableFont_wdth,wght.ttf
+  artifactKey: Guid(188a2ccda26f74d4eb03a7a091e2a731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Font/NotoSansDisplay-VariableFont_wdth,wght.ttf using Guid(188a2ccda26f74d4eb03a7a091e2a731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175ea93c07a05f4bb3773324559fced4') in 0.022199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.277000 seconds.
+  path: Assets/Resources/Font/NotoSansDisplay-VariableFont_wdth,wght SDF.asset
+  artifactKey: Guid(2500282c6e7539746bb0e120b51c6bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Font/NotoSansDisplay-VariableFont_wdth,wght SDF.asset using Guid(2500282c6e7539746bb0e120b51c6bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1a9e9afae79fcaa62ba1cd037ce46c') in 0.019290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.354156 seconds.
+  path: Assets/Resources/Prefabs/ComputerScreen.prefab
+  artifactKey: Guid(227c05bd07c570945a1772204550bcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/ComputerScreen.prefab using Guid(227c05bd07c570945a1772204550bcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65570511072d1854e5fb24e378ef10e7') in 0.565795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.407539 seconds.
+  path: Assets/Resources/Font/NotoSansDisplay-VariableFont_wdth,wght SDF.asset
+  artifactKey: Guid(2500282c6e7539746bb0e120b51c6bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Font/NotoSansDisplay-VariableFont_wdth,wght SDF.asset using Guid(2500282c6e7539746bb0e120b51c6bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83f9f18ddf2279da8f098fe36d873ef') in 0.027563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.671385 seconds.
+  path: Assets/Resources/Prefabs/Button.prefab
+  artifactKey: Guid(afa1e4c11fe5b6144bc1f0a5d0ec94e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Button.prefab using Guid(afa1e4c11fe5b6144bc1f0a5d0ec94e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7a045db8bcf394fe654a302d0d8fc9') in 0.050416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.790914 seconds.
+  path: Assets/Resources/Font/NotoSansDisplay-VariableFont_wdth,wght SDF.asset
+  artifactKey: Guid(2500282c6e7539746bb0e120b51c6bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Font/NotoSansDisplay-VariableFont_wdth,wght SDF.asset using Guid(2500282c6e7539746bb0e120b51c6bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051cdb32a7fd433683520346cfca7a91') in 0.027156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.431750 seconds.
+  path: Assets/Resources/Prefabs/contextMenu/contextMenuButton Variant.prefab
+  artifactKey: Guid(67e35f9bad6331b43b6add8db345507a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/contextMenu/contextMenuButton Variant.prefab using Guid(67e35f9bad6331b43b6add8db345507a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3b5046a2eb2a0843b2b01772c99e31') in 0.069465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.614371 seconds.
+  path: Assets/Resources/Prefabs/ComputerScreen.prefab
+  artifactKey: Guid(227c05bd07c570945a1772204550bcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/ComputerScreen.prefab using Guid(227c05bd07c570945a1772204550bcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd983eeecda611e11902683e66e800c') in 0.053289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.044859 seconds.
+  path: Assets/Resources/Prefabs/TaskBar_Program.prefab
+  artifactKey: Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TaskBar_Program.prefab using Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d9a6b9a583c8342b784870ac8f0c37') in 0.020845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.393120 seconds.
+  path: Assets/Resources/Prefabs/TaskBar_Program.prefab
+  artifactKey: Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TaskBar_Program.prefab using Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1383667045cee8ebc0b09c7492a41163') in 0.020583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.980701 seconds.
+  path: Assets/Resources/Prefabs/TaskBar_Program.prefab
+  artifactKey: Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TaskBar_Program.prefab using Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '818bb1f241bb90c364cd4b54fb6d580d') in 0.019549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.187892 seconds.
+  path: Assets/Resources/Prefabs/TaskBar_Program.prefab
+  artifactKey: Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TaskBar_Program.prefab using Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc88b71f1fa7575db2641cf4a91367ab') in 0.019018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.779792 seconds.
+  path: Assets/Resources/Prefabs/TaskBar_Program.prefab
+  artifactKey: Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TaskBar_Program.prefab using Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3865196c3a83fd6ab28225f363ec1d8b') in 0.019242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.581802 seconds.
+  path: Assets/Resources/Prefabs/TaskBar_Program.prefab
+  artifactKey: Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TaskBar_Program.prefab using Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45751f72747d2569dc80c7f1e843a2a6') in 0.023185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.593155 seconds.
+  path: Assets/Resources/Prefabs/TaskBar_Program.prefab
+  artifactKey: Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TaskBar_Program.prefab using Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2b3f41569362d49c2e6fdd83ead762') in 0.019484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.055472 seconds.
+  path: Assets/Resources/Prefabs/TaskBar_Program.prefab
+  artifactKey: Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TaskBar_Program.prefab using Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507d9ddcd7fe7579bbfca97329d7a804') in 0.022286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.144296 seconds.
+  path: Assets/Resources/Prefabs/TaskBar_Program.prefab
+  artifactKey: Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TaskBar_Program.prefab using Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2976a8b3d807e12bbc76529e2e2b9f1f') in 0.028224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.567948 seconds.
+  path: Assets/Resources/Prefabs/TaskBar_Program.prefab
+  artifactKey: Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TaskBar_Program.prefab using Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045ce07ea71bf6db3b2e9188b9e4f8b5') in 0.019485 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007143 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1228ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (984ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5116.
+Memory consumption went from 194.4 MB to 193.1 MB.
+Total: 12.880300 ms (FindLiveObjects: 0.275400 ms CreateObjectMapping: 0.197900 ms MarkObjects: 12.169400 ms  DeleteObjects: 0.237100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004039 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.519 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1520ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1293ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5120.
+Memory consumption went from 194.2 MB to 193.0 MB.
+Total: 11.211900 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.118800 ms MarkObjects: 10.567500 ms  DeleteObjects: 0.209900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 356.168928 seconds.
+  path: Assets/Computer.unity
+  artifactKey: Guid(05d73ded7dbc61642a9a86c65ba6bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Computer.unity using Guid(05d73ded7dbc61642a9a86c65ba6bf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90adab5516ad2996965ec1e9d6cce542') in 0.013290 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003979 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.433 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1434ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1133ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (379ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5124.
+Memory consumption went from 194.3 MB to 193.0 MB.
+Total: 13.307000 ms (FindLiveObjects: 0.276900 ms CreateObjectMapping: 0.188300 ms MarkObjects: 12.559700 ms  DeleteObjects: 0.281200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004342 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1352ms)
+		BeginReloadAssembly (281ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (97ms)
+		EndReloadAssembly (984ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5128.
+Memory consumption went from 194.3 MB to 193.0 MB.
+Total: 11.531500 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.230000 ms MarkObjects: 10.751000 ms  DeleteObjects: 0.236000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004087 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1346ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1115ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (592ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (445ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5132.
+Memory consumption went from 194.3 MB to 193.0 MB.
+Total: 12.608900 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.187800 ms MarkObjects: 11.938000 ms  DeleteObjects: 0.200900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1185.961599 seconds.
+  path: Assets/Resources/Prefabs/contextMenu/contextMenuButton_Variant.prefab
+  artifactKey: Guid(67e35f9bad6331b43b6add8db345507a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/contextMenu/contextMenuButton_Variant.prefab using Guid(67e35f9bad6331b43b6add8db345507a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1546af15e316ee74266f1368db3cbca') in 0.396909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.753811 seconds.
+  path: Assets/Resources/Prefabs/contextMenu/contextMenuButton.prefab
+  artifactKey: Guid(67e35f9bad6331b43b6add8db345507a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/contextMenu/contextMenuButton.prefab using Guid(67e35f9bad6331b43b6add8db345507a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdfc6e10d553b33e2b5cdc009a282e0') in 0.024478 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004039 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.447 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1448ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1207ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (407ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5136.
+Memory consumption went from 194.3 MB to 193.1 MB.
+Total: 11.542000 ms (FindLiveObjects: 0.289400 ms CreateObjectMapping: 0.114400 ms MarkObjects: 10.930500 ms  DeleteObjects: 0.206600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004201 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (975ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (479ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5140.
+Memory consumption went from 194.3 MB to 193.1 MB.
+Total: 12.711800 ms (FindLiveObjects: 0.280400 ms CreateObjectMapping: 0.197700 ms MarkObjects: 12.017200 ms  DeleteObjects: 0.215800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004345 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.221 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1222ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1002ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (504ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (392ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5144.
+Memory consumption went from 194.3 MB to 193.1 MB.
+Total: 13.697600 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.264400 ms MarkObjects: 12.856100 ms  DeleteObjects: 0.243500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2192.831018 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@4x.png
+  artifactKey: Guid(f469f8253737d534ca7809ae6f0d2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Visibility_Hidded@4x.png using Guid(f469f8253737d534ca7809ae6f0d2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b510998f6f8e1eb02be9168a8e850b34') in 0.137431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.438638 seconds.
+  path: Packages/com.unity.2d.path/Editor/Handles/TangentContinuous.png
+  artifactKey: Guid(229e750703f3e824ca71ddd16a5e36be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.path/Editor/Handles/TangentContinuous.png using Guid(229e750703f3e824ca71ddd16a5e36be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3f9361f9cbfaba3dd6416d3bcd6a35') in 0.020527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015960 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3.png
+  artifactKey: Guid(69899ed144c8eea4baea48b858b37746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3.png using Guid(69899ed144c8eea4baea48b858b37746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88be295376d711825eeee36eea337ca') in 0.020043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1@2x.png
+  artifactKey: Guid(affeade9874cf2347abb155e8d0db4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1@2x.png using Guid(affeade9874cf2347abb155e8d0db4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676c31a0758c105b20d76e41bf036ecf') in 0.019542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.304848 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode.png
+  artifactKey: Guid(ca778bc7303b24948abf3e907abbf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode.png using Guid(ca778bc7303b24948abf3e907abbf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb300764ab87d9489f143ca26f4edd6') in 0.017991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021201 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence@4x.png
+  artifactKey: Guid(0e0d5e38f19194a978d2f42b0b806775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Influence@4x.png using Guid(0e0d5e38f19194a978d2f42b0b806775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa57e532c07ae942ef123b5eec1749f') in 0.020005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016116 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Influence@2x.png
+  artifactKey: Guid(80f77a76467b24d1a856328afa989eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Influence@2x.png using Guid(80f77a76467b24d1a856328afa989eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1c3000ae368d45dd75ed199c6ce329') in 0.018046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.948133 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Split Bones.png
+  artifactKey: Guid(f723a6284838af1429bbb544ecf4015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Split Bones.png using Guid(f723a6284838af1429bbb544ecf4015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ae8139d58b753f67a7528b9c7cbd20') in 0.032414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.246963 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/refresh.png
+  artifactKey: Guid(6f6a4c6bd7cdc654d9d91f7de72afcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/refresh.png using Guid(6f6a4c6bd7cdc654d9d91f7de72afcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f532d8003c12eab14c9a1a724bb9cedb') in 0.071331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Parent_Bone@4x.png
+  artifactKey: Guid(d0604e80537a4ff4881a6182ae5afe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Parent_Bone@4x.png using Guid(d0604e80537a4ff4881a6182ae5afe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9530efc518c6efc3a136089bc93afe') in 0.037981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001127 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Parent_Bone@2x.png
+  artifactKey: Guid(fc9e5a25e0610a347b46fd10daa3f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Parent_Bone@2x.png using Guid(fc9e5a25e0610a347b46fd10daa3f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88cd45b5302a01a26d09b5edd2d25da') in 0.016636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.242781 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@2x.png
+  artifactKey: Guid(242f58a86f3ee8e418809e5fc269d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Mesh@2x.png using Guid(242f58a86f3ee8e418809e5fc269d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bbbdd234a9e4417d180b86d257c3fb') in 0.017817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072496 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Selected/Layers Separated@2x.png
+  artifactKey: Guid(91897a07e69db49ff88db92f445ba845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Selected/Layers Separated@2x.png using Guid(91897a07e69db49ff88db92f445ba845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93b552276f654f3c8ec370b85aa8bf8') in 0.018468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.267456 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Dark/Layers Mixed@16x.png
+  artifactKey: Guid(cce85e132a43842a09301fd497983f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Dark/Layers Mixed@16x.png using Guid(cce85e132a43842a09301fd497983f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bf59b2013e6002c2756aa5cc21c54d') in 0.022371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017200 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Dark/Layers Mixed@8x.png
+  artifactKey: Guid(1088bf24503634e7dbadf455fdcf78b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Dark/Layers Mixed@8x.png using Guid(1088bf24503634e7dbadf455fdcf78b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eed72c104c4b82665686fac99a07432') in 0.019902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047037 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Selected/Layers Collapsed@16x.png
+  artifactKey: Guid(7ffc8f310c89c47679285e29d8583529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Selected/Layers Collapsed@16x.png using Guid(7ffc8f310c89c47679285e29d8583529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cd94008bbfbed734884939bd564897') in 0.022019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.277065 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Light/Layers Collapsed@2x.png
+  artifactKey: Guid(dc4d4d6503a044f85bf2b8b356dfb738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Light/Layers Collapsed@2x.png using Guid(dc4d4d6503a044f85bf2b8b356dfb738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547699b0623f04b740fcf32a8f58f58d') in 0.019283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.300310 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticviewnotify.png
+  artifactKey: Guid(fcbb76d583fe7ee4e80e7e47c0593c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticviewnotify.png using Guid(fcbb76d583fe7ee4e80e7e47c0593c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69da3bc3e223e36959cf6f3f55200be1') in 0.020152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016015 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticview@2x.png
+  artifactKey: Guid(97a4e2b6ae08b1140a5ba9e22953e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticview@2x.png using Guid(97a4e2b6ae08b1140a5ba9e22953e029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd695dbddc70b35926c4f0981cf209d26') in 0.017738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025349 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay.png
+  artifactKey: Guid(1079db1f4b377fb45aa245fd791993f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay.png using Guid(1079db1f4b377fb45aa245fd791993f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e329e29573a2518e6b4e4695888a7648') in 0.018545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016294 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedremoteoverlay.png
+  artifactKey: Guid(e78d7bb19d72cdd478600b30412eecc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedremoteoverlay.png using Guid(e78d7bb19d72cdd478600b30412eecc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cb579705fdfa8ca776d36acfa22ab7') in 0.017736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.340357 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay@2x.png
+  artifactKey: Guid(309b1d5a294fd6c43ae9cf77656c1852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay@2x.png using Guid(309b1d5a294fd6c43ae9cf77656c1852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45dcded7545704353490ee4459133ee') in 0.021521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066038 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal@2x.png
+  artifactKey: Guid(a67b58d6cddcd4345b1e001340de5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal@2x.png using Guid(a67b58d6cddcd4345b1e001340de5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474cf508bd3e6b58f45f3997bec54a2b') in 0.017844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.297760 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Generate_Weights@2x.png
+  artifactKey: Guid(ba75d79a1a0723e488112808560789b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Generate_Weights@2x.png using Guid(ba75d79a1a0723e488112808560789b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8decaf4c2d4daad1d46ffff78672101') in 0.018563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.386463 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Pose@3x.png
+  artifactKey: Guid(32854586e42553846b24646ce18cf625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Pose@3x.png using Guid(32854586e42553846b24646ce18cf625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14194263cffc7fc9fede00ac6894883') in 0.019033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015384 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Pose.png
+  artifactKey: Guid(9844a6aa871b23547892e819f4dd55c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Edit_Pose.png using Guid(9844a6aa871b23547892e819f4dd55c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb303305a6ef26f64f3a86bd3f5f0c7c') in 0.018475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.354827 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Geometry@4x.png
+  artifactKey: Guid(088ce4ab56060504083daeb4556a09c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Edit_Geometry@4x.png using Guid(088ce4ab56060504083daeb4556a09c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5397f8f483a8b29b774fa778e832beec') in 0.020440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031627 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Slider.png
+  artifactKey: Guid(dce15ef65ee3c394cb6cc78d4d70b6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Dark/d_Weight_Slider.png using Guid(dce15ef65ee3c394cb6cc78d4d70b6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304e7ea4bf7c2e8ded3a8cd71bec3c23') in 0.017232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.791529 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a90ccc87a24eb311ed150ba96b3e208') in 0.042591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.043824 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379314d35b0a2a955507c611f4811977') in 0.042144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.740103 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2300333aee0cd523f6861fd688d064be') in 0.041836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.907003 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0e5fa7cec696906648e659e450fa8f') in 0.043460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.571036 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379507940a85b4b15783bd4d1f156903') in 0.042726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.076931 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d52bd06e1b3114aebe11b6da2082da9') in 0.041882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.864240 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184a37894117c804554912b7eeb986a1') in 0.041638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.637428 seconds.
+  path: Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png
+  artifactKey: Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Backgrounds/FDI_Wallpaper_1024x768.png using Guid(73772532561ede04992b6bc5e6c4bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e36854568f2f6e3ed0f52273d1ec20') in 0.041984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.144020 seconds.
+  path: Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab
+  artifactKey: Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab using Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdba9556d86e08e0c3363529460e785a') in 0.608936 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004042 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.418 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1419ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1179ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (485ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.2 MB). Loaded Objects now: 5166.
+Memory consumption went from 194.6 MB to 193.3 MB.
+Total: 13.703500 ms (FindLiveObjects: 0.301300 ms CreateObjectMapping: 0.215500 ms MarkObjects: 12.961700 ms  DeleteObjects: 0.224100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67.410979 seconds.
+  path: Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab
+  artifactKey: Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab using Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ce2b112f121c58392c55ab0f3f3d56') in 0.883894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.957253 seconds.
+  path: Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab
+  artifactKey: Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab using Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b92db28e26779b41906df71535e2185') in 0.074576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.100979 seconds.
+  path: Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab
+  artifactKey: Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab using Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a355116eb480aa3429c7459b3238062f') in 0.080600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.981856 seconds.
+  path: Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab
+  artifactKey: Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab using Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c8c0fc93c14dd95bfc3cd12d43f17e') in 0.084737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.568596 seconds.
+  path: Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab
+  artifactKey: Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab using Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e14cd3a0154c549c858e4dbdfa039d2') in 0.074180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.413287 seconds.
+  path: Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab
+  artifactKey: Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab using Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ca6993a3ab6ee1fa3b70ef44a88c8d') in 0.075861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.395662 seconds.
+  path: Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab
+  artifactKey: Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab using Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d39bf5e0a4e2bf5329426431d40d91') in 0.076616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.032540 seconds.
+  path: Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab
+  artifactKey: Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab using Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74686393df4740c2b481d92c15ab67fb') in 0.076523 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004031 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.186 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (953ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.2 MB). Loaded Objects now: 5170.
+Memory consumption went from 194.5 MB to 193.3 MB.
+Total: 14.005400 ms (FindLiveObjects: 0.302600 ms CreateObjectMapping: 0.218500 ms MarkObjects: 13.242300 ms  DeleteObjects: 0.241100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 126.544646 seconds.
+  path: Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab
+  artifactKey: Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab using Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60f10dc92c876dc1dcb443918eaa516') in 0.664941 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004212 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1249ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1009ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (377ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.2 MB). Loaded Objects now: 5174.
+Memory consumption went from 194.5 MB to 193.3 MB.
+Total: 13.353600 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.247300 ms MarkObjects: 12.586500 ms  DeleteObjects: 0.219800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003943 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Game Making\Unity Projects\ProjectRAT\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.205 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1205ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (491ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4548 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.2 MB). Loaded Objects now: 5178.
+Memory consumption went from 194.5 MB to 193.3 MB.
+Total: 12.487700 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.220600 ms MarkObjects: 11.750200 ms  DeleteObjects: 0.220600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 435.461467 seconds.
+  path: Assets/Resources/Prefabs/TaskBar_Program.prefab
+  artifactKey: Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/TaskBar_Program.prefab using Guid(546ad2a6af00dac4e9429538e6079760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4483c9e56a1d548e0acb2d912e19f9a') in 0.056724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.035658 seconds.
+  path: Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab
+  artifactKey: Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Window/WindowDisplayProperties.prefab using Guid(24c0d4486e713e84c973b8c9896deeed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2629272772b769420cf30d5105c141e') in 0.587749 seconds 

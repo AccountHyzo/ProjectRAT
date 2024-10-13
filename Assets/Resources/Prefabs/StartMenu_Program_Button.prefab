@@ -31,7 +31,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4164844242149395502}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -66,10 +65,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bomber
+  m_text: ProgramName
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 130d4dc28b2b1b14a83ecf60919c40f0, type: 2}
-  m_sharedMaterial: {fileID: -5627274589796180721, guid: 1c046c9716c79824db62937e3e3c2d5f, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2500282c6e7539746bb0e120b51c6bd2, type: 2}
+  m_sharedMaterial: {fileID: 5550436495927758745, guid: 2500282c6e7539746bb0e120b51c6bd2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -111,7 +110,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 3
+  m_overflowMode: 1
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
@@ -147,8 +146,6 @@ GameObject:
   - component: {fileID: 4164844242149395499}
   - component: {fileID: 4164844242149395496}
   - component: {fileID: 4164844242149395497}
-  - component: {fileID: -7597541649414283828}
-  - component: {fileID: -7302725461677085089}
   m_Layer: 5
   m_Name: StartMenu_Program_Button
   m_TagString: Untagged
@@ -171,11 +168,10 @@ RectTransform:
   - {fileID: 6144313937301809277}
   - {fileID: 4164844242432198066}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.070007324, y: -0.45996094}
+  m_AnchoredPosition: {x: 0.07006836, y: -0.45996094}
   m_SizeDelta: {x: 3.5, y: 0.6}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &4164844242149395499
@@ -272,39 +268,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &-7597541649414283828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4164844242149395503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Program","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 772710567052015285, guid: 92f1867e07a160d449d5ac2cb1e85a44, type: 3}
---- !u!114 &-7302725461677085089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4164844242149395503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: f5438761585d3fc4e8de8a155d12dbc0, type: 2}
 --- !u!1 &4164844242432198067
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,12 +299,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4164844242149395502}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.279, y: 0}
-  m_SizeDelta: {x: 0.5, y: -0.099999994}
+  m_AnchoredPosition: {x: 0.32, y: 0}
+  m_SizeDelta: {x: 0.4683, y: -0.1317}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4164844242432198076
 CanvasRenderer:
@@ -371,7 +333,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 369107d13da08d3439c6083cef44fe55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 752e881e684f1af46b647d374815eb5b, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 5077632674068000053, guid: 548490679f5d4a94b96e90c4ddcebad7, type: 3}
+    - target: {fileID: -3943517722662549559, guid: 10057a01879df834f82a540344a7d657, type: 3}
+      propertyPath: program
+      value: 
+      objectReference: {fileID: 5077632674068000053, guid: 548490679f5d4a94b96e90c4ddcebad7, type: 3}
     - target: {fileID: 2597232961451676554, guid: 10057a01879df834f82a540344a7d657, type: 3}
       propertyPath: m_Text
       value: Folder

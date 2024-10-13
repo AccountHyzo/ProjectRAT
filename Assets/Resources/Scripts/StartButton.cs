@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class StartButton : MonoBehaviour
 {
+    public GameObject StartMenu;
+    public GameObject StartMenuAllPrograms;
+
     // Start is called before the first frame update
     void Start()
     {
